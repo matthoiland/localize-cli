@@ -1,5 +1,3 @@
-## IN ACTIVE DEVELOPMENT
-
 # Localize CLI
 CLI tool for translating strings and generating i18n files using the Google Translate API.
 
