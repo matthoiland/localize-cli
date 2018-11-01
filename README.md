@@ -13,6 +13,8 @@ Create a config file in your root directory called `localize.cli.js` with the fo
 
 ```javascript
 module.exports = {
+
+  base_locale: 'en',
   
   locales: ['en', 'ja'],
 
@@ -49,6 +51,7 @@ localize base.hello "Hello world"
 
 ### TODO
 
+* [ ] Publish to NPM – `npm publish`
 * [ ] Command for removing translations by JSON key
 * [ ] Allow config to exist in `package.json` or as CLI params
 * [ ] Option to break each locale into separate JSON files

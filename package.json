@@ -6,6 +6,9 @@
   "bin": {
     "localize": "bin/localize"
   },
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +30,7 @@
   "homepage": "https://github.com/threematts/localize-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
   }
 }
