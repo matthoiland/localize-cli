@@ -1,0 +1,20 @@
+{
+  "name": "localize-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for translating strings and generating i18n files using the Google Translate API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threematts/localize-cli.git"
+  },
+  "keywords": ["localize", "translate", "i18n", "translator"],
+  "author": "Matt Hoiland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/threematts/localize-cli/issues"
+  },
+  "homepage": "https://github.com/threematts/localize-cli#readme"
+}
