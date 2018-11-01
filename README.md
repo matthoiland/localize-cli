@@ -1,3 +1,5 @@
+## IN ACTIVE DEVELOPMENT
+
 # Localize CLI
 CLI tool for translating strings and generating i18n files using the Google Translate API.
 
@@ -51,7 +53,7 @@ localize base.hello "Hello world"
 
 ### TODO
 
-* [ ] Publish to NPM – `npm publish`
+* [x] Publish to NPM – `npm publish`
 * [ ] Command for removing translations by JSON key
 * [ ] Allow config to exist in `package.json` or as CLI params
 * [ ] Option to break each locale into separate JSON files

@@ -9,7 +9,7 @@ const menus = {
     localize [json_key] [string]
 
     ${chalk.green('Commands:')}
-    remove ............. remove translation by json key
+    remove ............. [soon] remove translation by json key
     version ............ show package version
     help ............... show help menu for a command`,
 

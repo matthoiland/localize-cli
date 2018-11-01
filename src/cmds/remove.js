@@ -1,4 +1,4 @@
 
 module.exports = (args) => {
-  console.log('Removed it')
+  console.log('Removing by json key is in development.')
 }
