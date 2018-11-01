@@ -12,7 +12,7 @@ npm install --save localize-cli
 Create a config file in your root directory called `localize.cli.js` with the following:
 
 ```javascript
-export default {
+module.exports = {
   
   locales: ['en', 'ja'],
 
@@ -49,6 +49,7 @@ localize base.hello "Hello world"
 
 ### TODO
 
+* [ ] Command for removing translations by JSON key
 * [ ] Allow config to exist in `package.json` or as CLI params
-* [ ] Option to break each locale into separate `json` files
+* [ ] Option to break each locale into separate JSON files
 * [ ] Re-listen to Vespertine by Björk
