@@ -35,7 +35,7 @@ module.exports = {
   
   locales: ['en', 'ja'],
 
-  output: './locales.js',
+  output: './locales.json',
 
   google_cloud_project_id: 'MY_GOOGLE_PROJECT_ID'
 }
@@ -49,18 +49,18 @@ Typing this command in your terminal...
 localize base.hello "Hello world"
 ```
 
-... will generate a `locales.js` file like this:
+... will generate a `locales.json` file like this:
 
-```javascript
-module.exports = {
-  en: {
-    base: {
-      hello: "Hello World"
+```json
+{
+  "en": {
+    "base": {
+      "hello": "Hello World"
     }
   },
-  ja: {
-    base: {
-      hello: "こんにちは世界"
+  "ja": {
+    "base": {
+      "hello": "こんにちは世界"
     }
   }
 }

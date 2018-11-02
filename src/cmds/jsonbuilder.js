@@ -28,7 +28,7 @@ module.exports = async ({ key = '', translations = {} }) => {
 
   // Write locales.js back to filesystem
   try {
-    const fileString = `module.exports = ${JSON.stringify(locales_file, null, 2)}`
+    const fileString = JSON.stringify(locales_file, null, 2)
     fs.writeFileSync(path.resolve(config.output), fileString)
   } catch (err) {
     return error(err, true)

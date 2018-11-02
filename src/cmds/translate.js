@@ -36,6 +36,6 @@ module.exports = async (args) => {
 
   // All done!
   spinner.stop()
-  console.log('String localized!')
+  console.log('Translation complete.')
   console.log(translations)
 }
